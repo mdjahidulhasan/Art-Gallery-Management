@@ -1,0 +1,142 @@
+body{
+	margin: 0px;
+	border: 0px;
+	height: 600px;
+	background: white;
+}
+a{
+	text-decoration: none;
+}
+#header{
+	width:100%;
+	height:150px;
+	background: #570505;
+	padding-top:10px;
+	border-radius: 100px;
+}
+.btn {
+	margin-top:60px;
+	border: none;
+    background-color: inherit;
+    font-size: 25px;
+    cursor: pointer;	 
+}
+.btn:hover {
+	background: #aabbcc;
+	transition:0.5s;
+}
+.home {
+	margin-left: 100px;
+	color: white;
+	float:left;
+}
+.logout {
+    margin-right: 100px;
+	color: white;
+	float:right;
+}
+.img-responsive
+{
+	width: 100px;
+    height: 100px;
+	background: white;
+	border-radius: 50px;
+}
+#header h4{
+	color:white;
+	margin-right:25px;
+}
+
+.formtable {
+	margin-top:80px;
+	margin-left:400px;
+	width: 800px;
+	height: 400px;
+	background: #1c4877;
+	font-size:20px;
+	font-family:Comic Sans MS;
+	color:white;
+}
+.formtable h2{
+	font-size:30px;
+	padding-top:10px;
+}
+.button{
+	margin-top:10px;
+	margin-left:360px;
+	border: none;
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+.card{
+
+	background-color: white;
+	height: 400px;
+	width: 300px;
+	position: absolute;
+	margin: auto;
+	top: 200px;
+	bottom: 0;
+	left: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px 10px #262626;
+}
+.ex{
+	margin-left: 535px;
+}
+.sell{
+	margin-left: 1070px;
+}
+.right{
+	width: 60%;
+	height: 30%;
+	background: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 25px 50px;
+}
+.data
+{	
+	width: 100%;
+}
+.data h4{
+	color: black;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.data p{
+	cursor: pointer;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #570505;
+}
+.abc{
+	
+	background: #e8e8e8;
+	padding-top:10px;
+	margin-top: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+hr.a{
+	border-top: 2px solid black;
+	width: 20%;
+	margin-bottom: -30px;
+}
+ul{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+li{
+	margin-bottom: 20px;
+}
+li [type=submit]{
+	margin-left: 10px;
+	font-size: 15px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+	<link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+<body>
+
+	<div class="image"></div>
+
+	<a href = "after login.php"><button class="btn home">Home</button></a>
+<form action="update userprofile.php" method="post">
+	<div class="card">
+		<div class="upper">
+		</div>
+		<div class="right">
+			<div class="info_data">
+				<div class="data">
+					<h4>Fullname</h4>
+					<input type="text" name="fullname"required>
+					<h4>Username</h4>
+					<input type="text" name="user"required>
+					<h4>Email</h4>
+					<input type="text" name="email"required>
+					<h4>Password</h4>
+					<input type="text" name="password"required>
+					<h4>Image</h4>
+					<input type="file" name="image"required>
+				</div>
+			</div>
+			<button class="button">Update</button>
+		</div>
+	</div>
+</form>
+	<div class="line">
+		<p>"Art washes away from the soul the dust of every day life."</p>
+		<h5>-Picasso</h5>
+	</div>
+
+</body>
+</html>

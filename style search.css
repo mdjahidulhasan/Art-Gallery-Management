@@ -1,0 +1,120 @@
+body{	
+	margin: 0;
+	padding: 0;
+	background: url('images/log.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	
+}
+a{
+	text-decoration: none;
+}
+.btn {
+    border: 5px solid #fddb36;
+	border-radius:50px;
+	background:#fff;
+	width: 100px;
+    background-color: inherit;
+    font-size: 25px;
+    cursor: pointer;	 
+}
+.btn:hover {
+	background: #aecbbb;
+	transition:0.5s;
+}
+.home {
+	margin-right: 100px;
+	color: black;
+	float:right;
+}
+.box{
+	float: left;
+	margin-left:570px;
+	margin-top:10px;
+}
+input{
+	position:relative;
+	display: inline-block;
+	font-size:20px;
+    box-sizing: border-box;
+	transition: 0.5s;
+}
+input[type="text"]
+{
+	border: 3px solid #fddb36;
+	border-radius:50px;
+	background:#fff;
+	width: 250px;
+	height: 40px;
+	border-radius: 25px 0 0 25px;
+	outline:none;
+	padding: 0 25px;
+	
+}
+input[type="submit"]
+{
+	position: relative;
+	left: -5px;
+	border-radius: 0 25px 25px 0;
+	width: 100px;
+	height: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #fddb36;
+	color: #fff;
+}
+.button
+{
+	position: relative;
+	display: inline-block;
+	font-size:20px;
+    box-sizing: border-box;
+	transition: 0.5s;
+	left: -5px;
+	border-radius:25px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #fddb36;
+	color: black;
+	padding-top: 10px;
+}
+table {
+	width:95%;
+	margin:auto;
+	text-align:center;
+	table-layout:fixed;
+	margin-top: 100px;
+	
+}
+table,tr,th,td{
+	padding:20px;
+	color:white;
+	border:1px solid #080808;
+	border-collapse:collapse;
+	font-size:18px;
+	font-family:Arial;
+	background:linear-gradient(top, #3c3c3c 0%, #222222 100%);
+	background:-webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+	margin-bottom: 70px;
+
+}
+h2{
+	font-size: 20px;
+	margin-top:50px;
+	margin-left:200px;
+	color: black;
+	text-align: center;
+	font-family: Times New Roman;
+}
+h1{
+	font-size: 20px;
+	margin-top:50px;
+	color: black;
+	text-align: center;
+	font-family: Times New Roman;
+}

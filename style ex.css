@@ -1,0 +1,252 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+	background: white;
+}
+header {
+  background-image: url('b.jpg');
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+header p
+{
+	font-family: sans-serif;
+	font-size: 40px;
+	padding-right: 500px;
+
+}
+.box-with-text
+{
+	background-image: url(back8.jpg);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+    position: absolute;
+	top: 10%;
+	left: 75%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	white-space: nowrap;
+	background-position: 50% 50%;
+	background-repeat: repeat;
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+}
+.square_btn{
+    display: inline-block;
+    font-size: 25px;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #000 0%, #E6E6E6 100%);
+    background-image: linear-gradient(45deg, #000 0%, #E6E6E6 100%);
+    transition: .5s;
+    margin-right: 1200px;
+}
+
+.square_btn:hover {
+    background-image: -webkit-linear-gradient(45deg, #000 0%, #000 100%);
+    background-image: linear-gradient(45deg, #000 0%, #000 100%);
+}
+
+
+.container
+{
+	display: block;
+	width: 1200px;
+	margin: 20px auto;
+	padding: 12px;
+	columns: 4;
+	column-gap: 65px;
+	background: white;
+	transition: all 200ms;
+
+}
+.container:hover
+{
+	transform: translateY(-6px);
+	transition: all 200ms;
+}
+.container .box
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 30px;
+	background: black;
+	padding: 0px;
+	padding-bottom: 15px;
+	overflow: hidden;
+	break-inside: avoid;
+}
+.container .box img
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+.container .box h2
+{
+	text-align: center;
+	color: white;
+	margin: 20px auto;
+	padding-bottom: 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+.container .box p
+{
+	text-align: center;
+	margin-top: 10px;
+	padding: 0 0 10px;
+	font-size: 16px;
+	color: grey;
+	font-weight: 300;
+}
+.container-column
+{
+	display: block;
+	position: relative;
+	width: 33.333%;
+	box-sizing: border-box;
+}
+@media (max-width: 1200px)
+{
+	.container
+	{
+		columns: 3;
+		width: calc(100% - 40px);
+		box-sizing: border-box;
+		padding: 20px 20px 20px 0;
+	}
+}
+
+@media(max-width: 640px)
+{
+	.wall-column {
+		width: 50%;
+	}
+}
+
+@media(max-width: 480px)
+{
+	.wall-column
+	{
+		width: auto;
+		float: none;
+	}
+}
+.button {
+	width: 100%;
+	background: none;
+	border: 2px solid #827e7c;
+	color: white;
+	padding: 2px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.b{
+	margin-left: 85px;
+}
+.a{
+	margin: 0;
+	margin-left: 15px; 
+}
+.ab{
+	margin-left: 58px;
+}
+a{
+	text-decoration: none;
+}
+.add
+{
+  background-color: #1a75ff;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom:40px;
+  opacity: 0.8;
+  border-radius: 50px;
+}
+.add:hover
+{
+	opacity: 1;
+}
+
+/*---Hold Ex---*/
+.abc{
+	display: block;
+	width: 1200px;
+	margin: 20px auto;
+	background: white;
+	transition: all 200ms;
+}
+
+.abc input[type=text], input[type=datetime-local], input[type=file]
+{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+.abc input[type=text]:focus, input[type=datetime-local]:focus, input[type=file]:focus
+{
+	background-color: #ddd;
+    outline: none;
+} 
+.abc .btn 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+.abc .btn:hover 
+{
+    opacity: 1;
+}
+
+/*---Orders---*/
+.abcd{
+	background: #e8e8e8;
+	padding-top:10px;
+	margin-top: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+hr.c{
+	border-top: 2px solid black;
+	width: 20%;
+	margin-bottom: -30px;
+}
+ul{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+li{
+	margin-bottom: 20px;
+}
+li [type=submit]{
+	margin-left: 10px;
+	font-size: 15px;
+}

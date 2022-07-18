@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Add Category</title>
+<style>
+	*
+	{
+		font-family: Comic Sans MS;
+	}
+	.abc input[type=text], .abc input[type=file]
+	{
+		width: 100%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		border: none;
+		background: #f1f1f1;
+	}
+	.abc input[type=text]:focus, , .abc input[type=file]:focus
+	{
+		background-color: #ddd;
+        outline: none;
+    } 
+    .abc .btn 
+    {
+    	font-size: 20px;
+     	background-color: #4CAF50;
+   	    color: white;
+       	padding: 16px 20px;
+       	border: none;
+       	cursor: pointer;
+       	width: 100%;
+       	margin-bottom:10px;
+       	opacity: 0.8;
+        }
+    .abc .btn:hover 
+    {
+      	opacity: 1;
+    }
+</style>
+</head>
+<body>
+<div class="abc">
+<form action="connect add category.php" method="post">
+<center><h2 style="font-size: 30px"> Add Category</h2></center>
+<label for="category"><b style="font-size: 20px">Art Category</b><br><br></label>
+<input list ="category" name="category">
+<datalist id="category">
+    <option value="oil">
+    <option value="watercolor">
+    <option value="sculpture">
+    <option value="canvas">
+    <option value="portrait">
+    <option value="landscape">
+  </datalist><br><br>
+<label for="title"><b style="font-size: 20px">Art Title</b></label>
+<input type="text" name="title"required><br><br>
+<label for="description"><b style="font-size: 20px">Art Description</b></label>
+<input type="text" name="description"required><br><br>
+<label for="price"><b style="font-size: 20px">Art Price</b></label>
+<input type="text" name="price"required><br><br>
+<label for="image"><b style="font-size: 20px">Art Image</b></label>
+<input type="file" name="image"required><br>
+<label for="date"><b style="font-size: 20px">Insert Date</b></label>
+<input type="date" name="date"required><br><br><br>
+<input type="submit" value="ADD" class="btn">
+</form>
+</div>
+</body>
+</html>

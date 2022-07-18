@@ -1,0 +1,377 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url('images/mat.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	
+}
+
+a{
+	text-decoration: none;
+}
+/*------------Navigation-----------*/
+#nav-bar
+{
+	position: static;
+	top: 0;
+	z-index:10;	
+}
+.navbar-brand img
+{
+	height: 60px;
+	padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+	
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+	margin-top: 15px;
+}
+input[type="text"]
+{
+	border: 3px solid #fddb36;
+	border-radius:50px;
+	background:#fff;
+	width: 250px;
+	height: 40px;
+	border-radius: 25px 0 0 25px;
+	outline:none;
+	padding: 0 25px;
+	
+}
+input[type="submit"]
+{
+	position: relative;
+	left: -5px;
+	border-radius: 0 25px 25px 0;
+	width: 100px;
+	height: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #fddb36;
+	color: #fff;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	background: #fff;
+	height:70px;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight:600;
+	font-size: 16px;
+}
+/*--------Slider---------*/
+#slider
+{
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 10%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5
+{
+	color: #fff;
+	font-size: 42px;
+}
+/*--------CATEgorIES----*/
+#category
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
+	text-align: center;
+	
+}
+
+ #category h1
+{
+	text-align: center;
+	color:black !important;
+	padding-bottom:10px;
+}
+
+#category h1::after
+{
+	content:'';
+	background:black;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+
+#category .far-left
+{
+	height: 25px;
+	width: 25px;
+	color: #007bff !important;
+	background: #fff;
+	padding-left: 4px;
+	border-radius: 50%;
+}
+.profile-pic h6
+{
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+}
+
+h6
+{
+	text-align: center;
+	color: #007bff !important;
+   
+}
+
+.rounded
+{
+	width: 200px;
+	margin: auto;
+}
+.rounded img
+{
+	border-radius: 50%;
+	width: 190px;
+	height: 190px;
+}
+.rounded img:hover
+{
+	filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+	cursor: pointer;
+}
+.profile-pic
+{
+	margin-top: 25px;
+}
+
+.round-button{
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 60px;
+  height: 60px;
+  line-height: 55px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
+}
+
+.round-button:hover {
+    background: #b3e1ff;
+}
+
+/*--------Current Exhibitions----*/
+#Exhibitions
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: white;
+	text-align: center;
+	
+}
+.container1
+{
+	background-color:white;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+		display: block;
+	width: 1200px;
+	margin: 20px auto;
+	padding: 12px;
+	columns: 4;
+	column-gap: 65px;
+	transition: all 200ms;
+
+}
+.container1:hover
+{
+	transform: translateY(-6px);
+	transition: all 200ms;
+}
+.container1 .box
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 30px;
+	background: black;
+	padding: 2px;
+	overflow: hidden;
+	break-inside: avoid;
+}
+.container1 .box img
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 30px 0;
+}
+.container1 .box h2
+{
+	text-align: center;
+	margin: 20px auto;
+	padding-bottom: 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+.container1 .box p
+{
+	margin-top: 10px;
+	padding: 0 0 10px;
+	font-size: 16px;
+	color: grey;
+	font-weight: 300;
+}
+
+#Exhibitions h1
+{
+	text-align: center;
+	color:black !important;
+	padding-bottom:10px;
+	padding-left: 50px;
+}
+
+#Exhibitions h1::after
+{
+	content:'';
+	background:black;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+/*----------About---------*/
+#about
+{
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+		
+}
+.about-content p{
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+	line-height: 1.7;
+	color: #5d5d60;
+}
+
+.container h2{
+	padding-top:50px;
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	
+}
+.about-content
+{
+	padding-top: 10px;
+	color: black;
+}
+#contact
+{
+padding-top: 40px;
+padding-bottom: 40px;
+color: #777;
+}
+.contact-form
+{
+	padding: 70px;
+}
+.form-control
+{
+	border-radius: 10 !important;
+	
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info 
+{
+	margin-left: 280px;
+	padding: 60px;
+    font-weight: bold;
+	color: #007bff;
+
+}
+#footer
+	{
+		background: #333;
+		color: #fff;
+		padding: 12px;
+	}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

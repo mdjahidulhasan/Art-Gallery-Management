@@ -1,0 +1,19 @@
+<body onload="startTimer()">
+   <button onclick="showElapsedTime()">Show Seconds</button>
+ </body>
+
+<script>
+var start;
+var end;
+function startTimer() {
+  start = window.performance.now();
+  console.log(start);
+}
+
+function showElapsedTime() {
+  end = window.performance.now();
+  console.log(end - start);
+  var seconds = (end - start) / 1000;
+  window.location.href="timer.php?second=" + seconds.toFixed(2);
+}
+</script>
